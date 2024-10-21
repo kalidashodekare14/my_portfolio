@@ -96,7 +96,7 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-white text-xl">
                     <Image width={500} height={300} className='w-10' src="/logo.png" alt="" />
-                    Code Crux
+                    Kalidash Odekare
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">

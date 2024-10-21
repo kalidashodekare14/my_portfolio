@@ -1,3 +1,11 @@
 .roboto {
     font-family: "Roboto", sans-serif;
 }
+
+.project1{
+    background-image: url(../../../public/project/project1.png);
+}
+
+.main-project .projectName:hover h3,p{
+    opacity: 1;
+}
