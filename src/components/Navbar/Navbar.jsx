@@ -106,7 +106,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <Link to='contact'>
-                <button className="btn border-[#02dde8] text-white border-spacing-0 rounded-sm bg-opacity-0">Hire Me</button>
+                <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5 rounded-none'>Hire Me</button>
                 </Link>
             </div>
         </nav>

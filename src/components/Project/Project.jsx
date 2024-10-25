@@ -10,7 +10,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Project = () => {
     return (
-        <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-20'>
+        <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-32'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center py-20 '>
                 <h1 className='text-center text-2xl text-white'>Latest Projects</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
