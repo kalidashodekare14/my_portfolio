@@ -96,7 +96,7 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-white text-xl">
                     <Image width={500} height={300} className='w-10' src="/logo.png" alt="" />
-                    Kalidash Odekare
+                    Dev Kalidash
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -105,7 +105,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <Link to='contact'>
                 <button className="btn border-[#02dde8] text-white border-spacing-0 rounded-sm bg-opacity-0">Hire Me</button>
+                </Link>
             </div>
         </nav>
     );

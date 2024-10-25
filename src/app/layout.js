@@ -8,7 +8,7 @@ import { Scrollbar } from 'smooth-scrollbar-react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kalidash Odekare",
+  title: "Dev Kalidash",
   description: "Portfolio by kalidash odekare",
 };
 

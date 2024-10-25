@@ -43,7 +43,7 @@ const Banner = () => {
                 </h1>
                 <p data-aos="fade-right" data-aos-delay="2000" className='lg:w-[60%] text-center lg:text-left'>I am a frontend developer, proficient in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, Node.js, and MongoDB. My goal is to create high quality web applications and improve user experience. In future, I would like to improve myself by learning new technologies and techniques in web development.</p>
                 <div className='flex lg:justify-start justify-center items-center space-x-5 text-2xl'>
-                    <a target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
+                    <a target='_blank' href="https://www.facebook.com/developerKalidash">
                         <FaFacebook data-aos="fade-up" data-aos-delay="2200" />
                     </a>
                     <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
