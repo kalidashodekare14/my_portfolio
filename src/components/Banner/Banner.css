@@ -1,7 +1,9 @@
-
-
 .flashMove {
     animation: up-down 3s infinite;
+}
+
+.shadowStyle {
+    box-shadow: 0px 0px 30px 5px  #02dde8;
 }
 
 

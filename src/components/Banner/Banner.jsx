@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import { FaCss3, FaFacebook, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaNode, FaReact, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, } from "react-icons/fa";
 import Cursor from '../Cursor/Cursor';
 import Image from 'next/image';
 import { isMobile } from 'react-device-detect';
@@ -34,7 +34,6 @@ const Banner = () => {
                         words={['Web Developer', 'Front End Developer']}
                         loop
                         cursor
-                        
                         cursorStyle='...'
                         typeSpeed={100}
                         deleteSpeed={50}
@@ -62,7 +61,9 @@ const Banner = () => {
             </div>
             <div className='imageMove w-full'>
                 <div>
-                    <Image width={500} height={300} className='flashMove absolute top-20 z-20 w-[30%]' src="/man.png" alt="" />
+                    <div className='shadowStyle flashMove w-96 h-96 bg-[#02dde8c9] rounded-full flex justify-center items-center overflow-hidden'>
+                        <Image className='w-full' width={500} height={300}  src="/man.png" alt="" />
+                    </div>
                 </div>
             </div>
 
