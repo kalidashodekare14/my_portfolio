@@ -22,10 +22,10 @@ const AboutMe = () => {
                 <div data-aos="fade-right" data-aos-delay="1000" className='lg:w-[30%] mx-5 text-white'>
                     <Image width={500} height={300}  className='lg:w-full rounded-lg' src="/man2.png" alt="" />
                 </div>
-                <div data-aos="fade-right" data-aos-delay="1000" className='mx-3 lg:w-[50%]  text-white space-y-5'>
+                <div data-aos="fade-right" data-aos-delay="1000" className='mx-3 lg:w-[50%]  text-white space-y-5 font-rubik'>
                     <h1 className=' text-4xl text-white'>About Me</h1>
-                    <h2 className='text-2xl'>Front End Developer</h2>
-                    <p data-aos="fade-right" data-aos-delay="1000" className=''>I am a passionate and dedicated front-end developer with expertise in HTML, CSS, JavaScript, React, Tailwind CSS and Next.JS. I am experienced in back-end development using Node.js, Express, and MongoDB. My focus is to create engaging, responsive, and user-friendly web applications. With a keen eye for design and a commitment to writing clean, maintainable code, I strive to provide high-quality solutions that enhance user experience.</p>
+                    <h2 className='text-2xl text-[#02dde8]'>Front End Developer</h2>
+                    <p data-aos="fade-right" data-aos-delay="1000" className='text-[#ffffff9f]'>I am a passionate and dedicated front-end developer with expertise in HTML, CSS, JavaScript, React, Tailwind CSS and Next.JS. I am experienced in back-end development using Node.js, Express, and MongoDB. My focus is to create engaging, responsive, and user-friendly web applications. With a keen eye for design and a commitment to writing clean, maintainable code, I strive to provide high-quality solutions that enhance user experience.</p>
                     <button data-aos="fade-right" data-aos-delay="1000" className='btn border text-white border-[#07dde1] bg-opacity-0'>Read More</button>
                 </div>
             </div>

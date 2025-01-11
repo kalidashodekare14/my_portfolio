@@ -1,13 +1,23 @@
+"use client"
 import AboutMe from "@/components/AboutMe/AboutMe";
 import Banner from "@/components/Banner/Banner";
 import ContactUs from "@/components/ContactUs/ContactUs";
 import Education from "@/components/Education/Education";
 import Project from "@/components/Project/Project";
 import Skills from "@/components/Skills/Skills";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+
 
 
 
 export default function Home() {
+
+
+  useGSAP(() => {
+    
+  })
+
   return (
     <main>
       <Banner></Banner>

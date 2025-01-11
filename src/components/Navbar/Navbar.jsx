@@ -9,7 +9,7 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
 
     const links = <>
-        <li>
+        <li className='font-rubik'>
             <Link
                 to="home"
                 spy={true}
@@ -21,7 +21,7 @@ const Navbar = () => {
                 Home
             </Link>
         </li>
-        <li>
+        <li className='font-rubik'>
             <Link
                 to="about"
                 spy={true}
@@ -33,7 +33,7 @@ const Navbar = () => {
                 About Me
             </Link>
         </li>
-        <li>
+        <li className='font-rubik'>
             <Link
                 to="skills"
                 spy={true}
@@ -45,7 +45,7 @@ const Navbar = () => {
                 My Skills
             </Link>
         </li>
-        <li>
+        <li className='font-rubik'>
             <Link to="education"
                 spy={true}
                 smooth={true}
@@ -56,7 +56,7 @@ const Navbar = () => {
                 Education
             </Link>
         </li>
-        <li>
+        <li className='font-rubik'>
             <Link
                 to="projects"
                 spy={true}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 Projects
             </Link>
         </li>
-        <li>
+        <li className='font-rubik'>
             <Link
                 to="contact"
                 spy={true}
@@ -94,7 +94,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-white text-xl">
+                <a className="btn btn-ghost text-white text-xl font-rubik">
                     <Image width={500} height={300} className='w-10' src="/logo.png" alt="" />
                     Dev Kalidash
                 </a>
@@ -104,7 +104,7 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end font-rubik">
                 <Link to='contact'>
                 <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5 rounded-none'>Hire Me</button>
                 </Link>
