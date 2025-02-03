@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import React from 'react';
-import { FaEye, FaGithub, FaLink, FaNode, FaReact } from 'react-icons/fa';
-import { RiTailwindCssFill } from 'react-icons/ri';
-import { SiExpress, SiMongodb } from 'react-icons/si';
+import React, { useEffect } from 'react';
+import { FaGithub, FaLink } from 'react-icons/fa';
 import './Project.css'
 import Link from 'next/link';
-import { BsGithub } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import project1 from '../../../public/project/healthcare.png'
 import project2 from '../../../public/project/easystore.png'
 import project3 from '../../../public/project/precision.png'
@@ -13,7 +12,11 @@ import project3 from '../../../public/project/precision.png'
 
 const Project = () => {
 
-
+    useEffect(() => {
+        AOS.init({
+            once: true
+        });
+    }, [])
 
     return (
         <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-20 font-rubik'>
@@ -21,8 +24,8 @@ const Project = () => {
                 <h1 className='text-center text-2xl text-white'>Latest Projects</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-5'>
-                <div className='border text-white'>
+            <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-5'>
+                <div data-aos="fade-up" data-aos-delay="1000" className='border text-white'>
                     <div className='h-60'>
                         <Image className='w-full h-full' src={project1} width={500} height={300} alt='HealthCare' />
                     </div>
@@ -55,7 +58,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border text-white'>
+                <div data-aos="fade-up" data-aos-delay="2000" className='border text-white'>
                     <div className='h-60'>
                         <Image className='w-full h-full' src={project2} width={500} height={300} alt='HealthCare' />
                     </div>
@@ -88,7 +91,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border text-white'>
+                <div data-aos="fade-up" data-aos-delay="2200" className='border text-white'>
                     <div className='h-60'>
                         <Image className='w-full h-full' src={project3} width={500} height={300} alt='HealthCare' />
                     </div>

@@ -27,10 +27,10 @@ const Banner = () => {
     }, [])
 
     return (
-        <div id='home' className='bg-black flex flex-col-reverse lg:flex-row justify-center items-center space-y-10 min-h-screen lg:px-32'>
-            <div className='lg:w-[60%] p-3  font-rubik space-y-5 text-white'>
-                <h6 data-aos="fade-right" data-aos-duration="1000" className='text-center lg:text-left font-rubik'>🖐 Hi, I am <span className='text-[#02dde8] font-rubik'>Kalidash Odekare</span></h6>
-                <h1 data-aos="fade-right" data-aos-delay="1000" className='lg:text-4xl text-3xl text-center lg:text-left'>
+        <div id='home' className='bg-black flex flex-row justify-center items-center space-y-10 min-h-screen lg:px-20'>
+            <div className='lg:w-[60%] p-3  font-rubik space-y-4 text-white mt-10'>
+                <h6 data-aos="fade-right" data-aos-duration="1000" className='lg:text-left font-rubik'>🖐 Hi, I am <span className='text-[#02dde8] font-rubik'>Kalidash Odekare</span></h6>
+                <h1 data-aos="fade-right" data-aos-delay="1000" className='lg:text-4xl text-3xl lg:text-left'>
                     <Typewriter
                         words={['Web Developer','MERN Stack Developer', 'Frontend Developer ']}
                         loop
@@ -42,8 +42,8 @@ const Banner = () => {
 
                     />
                 </h1>
-                <p data-aos="fade-right" data-aos-delay="2000" className='lg:w-[60%] text-center lg:text-left font-rubik text-[#ffffffc0]'>I am a frontend developer, proficient in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, Node.js, and MongoDB. My goal is to create high quality web applications and improve user experience. In future, I would like to improve myself by learning new technologies and techniques in web development.</p>
-                <div className='flex lg:justify-start justify-center items-center space-x-5 text-2xl'>
+                <p data-aos="fade-right" data-aos-delay="2000" className='lg:w-[70%]  lg:text-left font-rubik text-[#ffffffc0]'>I create websites with attractive and unique designs and functionalities.</p>
+                <div className='flex lg:justify-start justify-left items-center space-x-5 text-2xl'>
                     <a target='_blank' href="https://www.facebook.com/developerKalidash">
                         <FaFacebook data-aos="fade-up" data-aos-delay="2200" />
                     </a>
@@ -54,7 +54,7 @@ const Banner = () => {
                         <FaGithub data-aos="fade-up" data-aos-delay="2300" />
                     </a>
                 </div>
-                <div className='flex lg:justify-start justify-center items-center'>
+                <div className='flex lg:justify-start justify-left items-left'>
                     <Link data-aos="fade-right" data-aos-delay="2600" download href="/dawnload.pdf">
                         <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5 font-rubik'>Dawnload Resume</button>
                     </Link>

@@ -16,20 +16,15 @@ const AboutMe = () => {
 
 
     return (
-        <section id='about' className=' bg-[#110f17] min-h-screen py-5'>
-            {/* <div data-aos="fade-up" data-aos-duration="1000" className='text-center'>
-                <h1 className='text-center text-2xl text-white'>About Me</h1>
-                <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
-            </div> */}
-            <div className='lg:mx-32 lg:my-10 flex flex-col lg:flex-row justify-center items-center lg:space-x-10 space-y-3'>
-                <div data-aos="fade-right" data-aos-delay="1000" className='lg:w-[30%] mx-5 text-white'>
+        <section id='about' className=' bg-[#110f17] min-h-screen py-5 pt-20'>
+            <div className='lg:mx-32 lg:my-10 flex flex-col lg:flex-row justify-between items-center lg:space-x-10 space-y-3'>
+                <div data-aos="fade-right" data-aos-delay="1000" className='lg:w-[40%] mx-5 text-white'>
                     <Image className=' w-full border-2  border-[#02ddd9b4] hover:border-[#02ddd9] rounded-[50px] duration-300' src={image} width={500} height={300} alt='image' />
-                    {/* <Image width={500} height={300} className='lg:w-full rounded-lg' src="/man2.png" alt="" /> */}
                 </div>
                 <div data-aos="fade-right" data-aos-delay="1000" className='mx-3 lg:w-[50%]  text-white space-y-5 font-rubik'>
                     <h1 className=' text-4xl text-white'>About Me</h1>
-                    <h2 className='text-2xl text-[#02dde8]'>Front End Developer</h2>
-                    <p data-aos="fade-right" data-aos-delay="1000" className='text-[#ffffff9f]'>I am a passionate and dedicated front-end developer with expertise in HTML, CSS, JavaScript, React, Tailwind CSS and Next.JS. I am experienced in back-end development using Node.js, Express, and MongoDB. My focus is to create engaging, responsive, and user-friendly web applications. With a keen eye for design and a commitment to writing clean, maintainable code, I strive to provide high-quality solutions that enhance user experience.</p>
+                    <h2 className='text-2xl text-[#02dde8]'>MERN Stack and Frontend Developer</h2>
+                    <p data-aos="fade-right" data-aos-delay="1000" className='text-[#ffffff9f]'>I am a MERN Stack and Frontend Developer with expertise in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, Node.js, and MongoDB. My goal is to develop high-quality web applications and enhance user experiences. I aspire to become a skilled full-stack developer in the future and explore cutting-edge technologies.</p>
                     <button data-aos="fade-right" data-aos-delay="1000" className='btn border text-white border-[#07dde1] bg-opacity-0'>Read More</button>
                 </div>
             </div>
