@@ -6,216 +6,121 @@ import { SiExpress, SiMongodb } from 'react-icons/si';
 import './Project.css'
 import Link from 'next/link';
 import { BsGithub } from "react-icons/bs";
+import project1 from '../../../public/project/healthcare.png'
+import project2 from '../../../public/project/easystore.png'
+import project3 from '../../../public/project/precision.png'
 
 
 const Project = () => {
 
-    
-    
+
+
     return (
-        <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-32 font-rubik'>
+        <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-20 font-rubik'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center py-20 '>
                 <h1 className='text-center text-2xl text-white'>Latest Projects</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-5'>
-                <div>
-                    <div className="main-project">
-                        <div className='rounded-2xl flex flex-col justify-center items-center relative group'>
-                            <div className='relative h-[350px] w-full rounded-2xl overflow-hidden'>
-                                <Image className='h-[350px] w-full rounded-2xl group-hover:scale-110 duration-300' width={500} height={300} src="/project/project1.png" alt="" />
-                                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80"></div>
-
-                            </div>
-                            <div className='absolute bottom-9 bg-opacity-60  projectName opacity-1 group-hover:opacity-0 duration-300'>
-                                <h1 className='text-white text-2xl'>EasyStore (Ecommerce Project)</h1>
-                                <p className='text-white'>Fast, secure, hassle-free shopping.</p>
-                            </div>
-                            <div className='absolute top-5 bg-opacity-60  projectName opacity-0 group-hover:opacity-100 duration-300'>
-                                <div className='flex items-center text-3xl gap-5'>
-                                    <Link target='_blank' href={'https://easystore-9fd6e.web.app'}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaLink />
-                                            </div>
-                                            <p className='text-[18px] text-white'>live link</p>
-                                        </div>
-                                    </Link>
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/easyStore-Client"}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>client</p>
-                                        </div>
-                                    </Link>
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/easyStore-Server"}>
-                                        <div>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <BsGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>server</p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='absolute bottom-5 left-5 bg-opacity-60  opacity-0 group-hover:opacity-100  duration-300 group-hover:duration-300 translate-y-5 group-hover:translate-y-0'>
-                                <div className='flex flex-wrap gap-2'>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>node.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>express.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>mongodb</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>tailwind css</h1>
-                                    </div>
-                                </div>
-                            </div>
+                <div className='border text-white'>
+                    <div className='h-60'>
+                        <Image className='w-full h-full' src={project1} width={500} height={300} alt='HealthCare' />
+                    </div>
+                    <div className='space-y-3 p-3 font-rubik'>
+                        <div className='space-y-3'>
+                            <h1 className='text-3xl text-[#02bfe2]'>HealthCare</h1>
+                            <p className='text-[#ffffff9f]'>The Healthcare project is designed for patients. Here, you can easily book doctor appointments online without any hassle, make payments if required, and receive doctor consultations and treatments. Patients can view their booked appointments, and there is a dashboard that the admin can control.</p>
+                            <p className='text-[#ffffff9f]'>Technology: Next.js, Tailwind CSS, NextAuth.js, MongoDB, Next.js API Routes</p>
+                        </div>
+                        <div className='space-x-2'>
+                            {/* <button className='btn bg-opacity-0  mb-5 font-rubik'>Dawnload Resume</button> */}
+                            <Link href={'https://health-care14.vercel.app'} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaLink />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link href={"https://github.com/kalidashodekare14/HealthCare"} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Client
+                                </button>
+                            </Link>
+                            <Link href={""}>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Server
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="main-project">
-                        <div className='rounded-2xl flex flex-col justify-center items-center relative group'>
-                            <div className='relative h-[350px] w-full rounded-2xl overflow-hidden'>
-                                <Image className='h-[350px] w-full rounded-2xl group-hover:scale-110 duration-300' width={500} height={300} src="/project/project3.png" alt="" />
-                                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80"></div>
-
-                            </div>
-                            <div className='absolute bottom-9 bg-opacity-60  projectName opacity-1 group-hover:opacity-0 duration-300'>
-                                <h1 className='text-white text-2xl'>QuickShop (Ecommerce Project)</h1>
-                                <p className='text-white'>Fast, secure, hassle-free shopping.</p>
-                            </div>
-                            <div className='absolute top-5 bg-opacity-60  projectName opacity-0 group-hover:opacity-100 duration-300'>
-                                <div className='flex items-center text-3xl gap-5'>
-                                    <Link target='_blank' href={'https://quickshop-4fa4e.web.app'}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaLink />
-                                            </div>
-                                            <p className='text-[18px] text-white'>live link</p>
-                                        </div>
-                                    </Link>
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/QuickShop-Client"}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>client</p>
-                                        </div>
-                                    </Link>
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/QuickShop-Server"}>
-                                        <div>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <BsGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>server</p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='absolute bottom-5 left-5 bg-opacity-60  opacity-0 group-hover:opacity-100  duration-300 group-hover:duration-300 translate-y-5 group-hover:translate-y-0'>
-                                <div className='flex flex-wrap gap-2'>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>node.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>express.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>mongodb</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>tailwind css</h1>
-                                    </div>
-                                </div>
-                            </div>
+                <div className='border text-white'>
+                    <div className='h-60'>
+                        <Image className='w-full h-full' src={project2} width={500} height={300} alt='HealthCare' />
+                    </div>
+                    <div className='space-y-3 p-3 font-rubik'>
+                        <div className='space-y-3'>
+                            <h1 className='text-3xl text-[#02bfe2]'>EasyStore</h1>
+                            <p className='text-[#ffffff9f]'>EasyStore is an eCommerce platform focused on grocery products. It allows users to filter products for convenient shopping and make secure payments through SSLCOMMERZ, a trusted payment gateway. Users can track their payment status, and the platform includes a dashboard that the admin can manage.</p>
+                            <p className='text-[#ffffff9f]'>Technology: React.js, Tailwind CSS, Node.js, Express.js, MongoDB</p>
+                        </div>
+                        <div className='space-x-2'>
+                            {/* <button className='btn bg-opacity-0  mb-5 font-rubik'>Dawnload Resume</button> */}
+                            <Link href={'https://easystore-9fd6e.web.app'} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaLink />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link href={"https://github.com/kalidashodekare14/easyStore-Client"} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Client
+                                </button>
+                            </Link>
+                            <Link href={"https://github.com/kalidashodekare14/easyStore-Server"}>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Server
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="main-project">
-                        <div className='rounded-2xl flex flex-col justify-center items-center relative group'>
-                            <div className='relative h-[350px] w-full rounded-2xl overflow-hidden'>
-                                <Image className='h-[350px] w-full rounded-2xl group-hover:scale-110 duration-300' width={500} height={300} src="/project/project2.png" alt="" />
-                                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80"></div>
-
-                            </div>
-                            <div className='absolute bottom-9 bg-opacity-60  projectName opacity-1 group-hover:opacity-0 duration-300'>
-                                <h1 className='text-white text-2xl'>Precision Medical Camp</h1>
-                                <p className='text-white'>Accessible, Specialized Community Healthcare.</p>
-                            </div>
-                            <div className='absolute top-5 bg-opacity-60  projectName opacity-0 group-hover:opacity-100 duration-300'>
-                                <div className='flex items-center text-3xl gap-5'>
-                                    <Link target='_blank' href={"https://precision-medical-camp.web.app"}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaLink />
-                                            </div>
-                                            <p className='text-[18px] text-white'>live link</p>
-                                        </div>
-                                    </Link>
-
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/precision-medical-camp"}>
-                                        <div className='flex flex-col justify-center items-center'>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <FaGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>client</p>
-                                        </div>
-                                    </Link>
-                                    <Link target='_blank' href={"https://github.com/kalidashodekare14/precision-medical-camp-server"}>
-                                        <div>
-                                            <div className='border w-12 p-2 bg-white rounded-full cursor-pointer'>
-                                                <BsGithub />
-                                            </div>
-                                            <p className='text-[18px] text-white'>server</p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='absolute bottom-5 left-5 bg-opacity-60  opacity-0 group-hover:opacity-100  duration-300 group-hover:duration-300 translate-y-5 group-hover:translate-y-0'>
-                                <div className='flex flex-wrap gap-2'>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>node.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>express.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>mongodb</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>react.js</h1>
-                                    </div>
-                                    <div className='text-white bg-[#7e7c7c91] px-1 py-1 rounded-3xl'>
-                                        <h1>tailwind css</h1>
-                                    </div>
-                                </div>
-                            </div>
+                <div className='border text-white'>
+                    <div className='h-60'>
+                        <Image className='w-full h-full' src={project3} width={500} height={300} alt='HealthCare' />
+                    </div>
+                    <div className='space-y-3 p-3 font-rubik'>
+                        <div className='space-y-3'>
+                            <h1 className='text-3xl text-[#02bfe2]'> Precision Medical Camp</h1>
+                            <p className='text-[#ffffff9f]'>The Medical Management Camp is designed for patients. Patients can join the camp based on their specific health issues and receive treatment. The platform includes a dashboard where they can manage their camp activities and make payments.</p>
+                            <p className='text-[#ffffff9f]'>Technology: React.js, Tailwind CSS, Node.js, Express.js, MongoDB</p>
+                        </div>
+                        <div className='space-x-2'>
+                            {/* <button className='btn bg-opacity-0  mb-5 font-rubik'>Dawnload Resume</button> */}
+                            <Link href={'https://precision-medical-camp.web.app'} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaLink />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link href={"https://github.com/kalidashodekare14/precision-medical-camp"} target='_blank'>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Client
+                                </button>
+                            </Link>
+                            <Link href={"https://github.com/kalidashodekare14/precision-medical-camp-server"}>
+                                <button className='btn rounded-none border bg-black text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
+                                    <FaGithub />
+                                    Server
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     );
