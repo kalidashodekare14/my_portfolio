@@ -7,7 +7,9 @@ import 'aos/dist/aos.css';
 const Education = () => {
 
     useEffect(() => {
-        AOS.init({});
+        AOS.init({
+            once: true
+        });
     }, [])
 
 

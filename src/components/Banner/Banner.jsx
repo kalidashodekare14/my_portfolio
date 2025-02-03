@@ -9,6 +9,8 @@ import 'aos/dist/aos.css';
 import './Banner.css'
 import { Typewriter } from 'react-simple-typewriter'
 import Link from 'next/link';
+import  image from '../../../public/img.png'
+
 
 
 
@@ -17,25 +19,24 @@ const Banner = () => {
     const [isClient, setIsClient] = useState(false)
 
     useEffect(() => {
-        AOS.init({});
+        AOS.init({
+            once: true
+        });
         setIsClient(true)
 
     }, [])
 
     return (
-        <div id='home' className=' bg-[#0d0d0d] flex flex-col-reverse lg:flex-row justify-center items-center space-y-10 min-h-screen lg:px-32'>
-            {
-                isClient && !isMobile && <Cursor />
-            }
-            <div className='font-rubik space-y-4 text-white'>
+        <div id='home' className='bg-black flex flex-col-reverse lg:flex-row justify-center items-center space-y-10 min-h-screen lg:px-32'>
+            <div className='lg:w-[60%] p-3  font-rubik space-y-5 text-white'>
                 <h6 data-aos="fade-right" data-aos-duration="1000" className='text-center lg:text-left font-rubik'>🖐 Hi, I am <span className='text-[#02dde8] font-rubik'>Kalidash Odekare</span></h6>
-                <h1 data-aos="fade-right" data-aos-delay="1000" className='lg:text-5xl text-3xl text-center lg:text-left'>
+                <h1 data-aos="fade-right" data-aos-delay="1000" className='lg:text-4xl text-3xl text-center lg:text-left'>
                     <Typewriter
-                        words={['Web Developer', 'Front End Developer']}
+                        words={['Web Developer','MERN Stack Developer', 'Frontend Developer ']}
                         loop
                         cursor
                         cursorStyle='...'
-                        typeSpeed={100}
+                        typeSpeed={200}
                         deleteSpeed={50}
                         delaySpeed={500}
 
@@ -59,14 +60,9 @@ const Banner = () => {
                     </Link>
                 </div>
             </div>
-            <div className='imageMove w-full'>
-                <div>
-                    <div className='shadowStyle flashMove w-96 h-96 bg-[#02dde8c9] rounded-full flex justify-center items-center overflow-hidden'>
-                        <Image className='w-full' width={500} height={300}  src="/man.png" alt="" />
-                    </div>
-                </div>
+            <div className='hidden lg:flex w-[35%]'>
+                <Image className='shadowStyle  w-full border-2  border-[#02ddd9b4] hover:border-[#02ddd9] rounded-[50px] duration-300' src={image} width={500} height={300} alt='image' />
             </div>
-
         </div>
     );
 };

@@ -12,6 +12,13 @@ const ContactUs = () => {
     const form = useRef();
 
 
+    useEffect(() => {
+        AOS.init({
+            once: true
+        });
+    }, [])
+
+
     const sendEmail = (e) => {
         e.preventDefault();
 

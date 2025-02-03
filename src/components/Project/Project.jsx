@@ -9,6 +9,8 @@ import { BsGithub } from "react-icons/bs";
 
 
 const Project = () => {
+
+    
     
     return (
         <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-32 font-rubik'>

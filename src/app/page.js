@@ -14,9 +14,7 @@ import { useGSAP } from '@gsap/react';
 export default function Home() {
 
 
-  useGSAP(() => {
-    
-  })
+  
 
   return (
     <main>

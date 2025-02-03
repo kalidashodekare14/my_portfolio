@@ -14,7 +14,9 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 const Skills = () => {
 
     useEffect(() => {
-        AOS.init({});
+        AOS.init({
+            once: true
+        });
     }, [])
 
 

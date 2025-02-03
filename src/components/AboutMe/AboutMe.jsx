@@ -3,12 +3,15 @@ import React, { useEffect } from 'react';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import image from '../../../public/img.png'
 
 const AboutMe = () => {
 
 
     useEffect(() => {
-        AOS.init({});
+        AOS.init({
+            once: true
+        });
     }, [])
 
 
@@ -20,7 +23,8 @@ const AboutMe = () => {
             </div> */}
             <div className='lg:mx-32 lg:my-10 flex flex-col lg:flex-row justify-center items-center lg:space-x-10 space-y-3'>
                 <div data-aos="fade-right" data-aos-delay="1000" className='lg:w-[30%] mx-5 text-white'>
-                    <Image width={500} height={300}  className='lg:w-full rounded-lg' src="/man2.png" alt="" />
+                    <Image className=' w-full border-2  border-[#02ddd9b4] hover:border-[#02ddd9] rounded-[50px] duration-300' src={image} width={500} height={300} alt='image' />
+                    {/* <Image width={500} height={300} className='lg:w-full rounded-lg' src="/man2.png" alt="" /> */}
                 </div>
                 <div data-aos="fade-right" data-aos-delay="1000" className='mx-3 lg:w-[50%]  text-white space-y-5 font-rubik'>
                     <h1 className=' text-4xl text-white'>About Me</h1>
