@@ -50,7 +50,7 @@ const Skills = () => {
                         <div className='flex justify-center hover:text-[#00d1f7] text-6xl hover:text-7xl hover:scale-y-105 transition-all duration-200 text-[#90c6cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
                             <FaReact className=''></FaReact>
                         </div>
-                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>React</h1>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>React JS</h1>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="2400" className='lg:w-40 w-full h-full lg:h-[25vh]'>
                         <div className='flex justify-center hover:text-[#39abab] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
@@ -62,7 +62,7 @@ const Skills = () => {
                         <div className='flex justify-center hover:text-[#303e3e]  hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
                             <RiNextjsFill className='' />
                         </div>
-                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Tailwind css</h1>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Next JS</h1>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="2500" className='lg:w-40 w-full h-full lg:h-[25vh]'>
                         <div className='flex justify-center hover:text-[#70a661] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center  lg:w-40 lg:h-[25vh] h-[30vh] rounded-3xl border border-[#07dde1]'>
