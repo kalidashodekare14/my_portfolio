@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import Link from 'next/link';
 
 const ContactUs = () => {
 
@@ -80,16 +81,16 @@ const ContactUs = () => {
                     </div>
                     <div data-aos="fade-right" data-aos-delay="2400" className='space-y-3'>
                         <h4 className='mt-10 uppercase'>Follow Us:</h4>
-                        <div className='flex items-center space-x-5'>
-                            <a target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
+                        <div className='flex items-center space-x-5 text-2xl'>
+                            <Link target='_blank' href="https://www.facebook.com/developerKalidash">
                                 <FaFacebook />
-                            </a>
-                            <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                            </Link>
+                            <Link target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
                                 <FaLinkedin />
-                            </a>
-                            <a target='_blank' href="https://github.com/kalidashodekare14">
+                            </Link>
+                            <Link target='_blank' href="https://github.com/kalidashodekare14">
                                 <FaGithub />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

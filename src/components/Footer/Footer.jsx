@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebook, FaGithub, FaGithubAlt, FaLinkedin } from 'react-icons/fa';
 
@@ -8,21 +9,21 @@ const Footer = () => {
             <div className='space-y-5 text-center lg:w-[500px] m-auto'>
                 <div className='flex justify-center gap-3 flex-row items-center text-white dark:text-black'>
                     <Image className='w-20' src="/logo.png" width={500} height={300} alt="" />
-                    <h1 className='text-2xl'>Code Crux</h1>
+                    <h1 className='text-2xl'>Dev Kalidash</h1>
                 </div>
-                <p className='text-white dark:text-black'>Experienced Front-End Developer Proficient in creating responsive web interfaces and optimizing user experiences.</p>
+                <p className='text-white dark:text-black'>Experienced MERN Stack and Frontend Developer Proficient in creating responsive web interfaces and optimizing user experiences.</p>
                 <div className='space-y-3'>
-                    <h2 className='text-white dark:text-black'>Follow Me</h2>
-                    <div className='flex  space-x-5 justify-center text-white dark:text-black items-center'>
-                        <a target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
+                    <h2 className='text-white dark:text-black text-xl'>Follow Me</h2>
+                    <div className='flex  space-x-5 justify-center text-white dark:text-black items-center text-xl'>
+                        <Link target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
                             <FaFacebook />
-                        </a>
-                        <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                        </Link>
+                        <Link target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
                             <FaLinkedin />
-                        </a>
-                        <a target='_blank' href="https://github.com/kalidashodekare14">
+                        </Link>
+                        <Link target='_blank' href="https://github.com/kalidashodekare14">
                             <FaGithubAlt />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
