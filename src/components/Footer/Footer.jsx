@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className='space-y-3'>
                     <h2 className='text-white dark:text-black text-xl'>Follow Me</h2>
                     <div className='flex  space-x-5 justify-center text-white dark:text-black items-center text-xl'>
-                        <Link target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
+                        <Link target='_blank' href="https://www.facebook.com/developerKalidash">
                             <FaFacebook />
                         </Link>
                         <Link target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
