@@ -14,32 +14,32 @@ const Education = () => {
 
 
     return (
-        <div id='education' className='lg:h-[110vh]  bg-[#110f17] font-rubik'>
+        <div id='education' className='lg:h-[110vh]  bg-[#110f17] dark:bg-white font-rubik'>
             <div data-aos="fade-up" data-aos-duration="1000">
-                <h1 className='text-white text-center text-4xl pt-10 '>Education</h1>
+                <h1 className='text-white dark:text-black text-center text-4xl pt-10 '>Education</h1>
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>
             </div>
             <div>
                 <div className='flex flex-col lg:flex-row justify-center items-center space-y-5 lg:space-y-0 lg:space-x-5 mt-20 mb-5 '>
-                    <div data-aos="fade-right" data-aos-delay="1000" className='hover:bg-[#07dde12d] mx-3 duration-500 transition text-white border border-[#02bfe2] lg:w-[40%]  p-5 space-y-3 rounded-lg'>
+                    <div data-aos="fade-right" data-aos-delay="1000" className='hover:bg-[#07dde12d] mx-3 duration-500 transition text-white dark:text-black border border-[#02bfe2] lg:w-[40%]  p-5 space-y-3 rounded-lg'>
                         <p className='flex items-center space-x-2'>
                             <span>
                                 <MdOutlineDateRange className='text-[#02bfe2]' />
                             </span>
-                            <span className='text-[#ffffff9f]'>2023-2024</span>
+                            <span className='text-[#ffffff9f] dark:text-black'>2023-2024</span>
                         </p>
-                        <h1 className='font-bold text-xl text-[#02bfe2]'>Secondary (X)</h1>
-                        <p className='text-[16px] text-[#ffffff9f]'>Completed SSC from B.K High School, Dinajpur, in 2022 with a GPA of 3.63. Actively participated in debate team and science club activities.</p>
+                        <h1 className='font-bold text-xl text-[#02bfe2] '>Secondary (X)</h1>
+                        <p className='text-[16px] text-[#ffffff9f] dark:text-black'>Completed SSC from B.K High School, Dinajpur, in 2022 with a GPA of 3.63. Actively participated in debate team and science club activities.</p>
                     </div>
                     <div data-aos="fade-right" data-aos-delay="2000" className='hover:bg-[#07dde12d] mx-3 duration-500 transition text-white border border-[#02bfe2] lg:w-[40%] p-5 space-y-3 rounded-lg'>
                         <p className='flex items-center space-x-2'>
                             <span>
                                 <MdOutlineDateRange className='text-[#02bfe2]' />
                             </span>
-                            <span className='text-[#ffffff9f]'>2023-Present</span>
+                            <span className='text-[#ffffff9f] dark:text-black'>2023-Present</span>
                         </p>
                         <h1 className='font-bold text-xl text-[#02bfe2]'>Senior Secondary (XII)</h1>
-                        <p className='text-[16px] text-[#ffffff9f]'>Currently pursuing Senior Secondary (XII) at Goreya Degree College under Dinajpur, with a focus on Humanities. Expected to complete in 2025</p>
+                        <p className='text-[16px] text-[#ffffff9f] dark:text-black'>Currently pursuing Senior Secondary (XII) at Goreya Degree College under Dinajpur, with a focus on Humanities. Expected to complete in 2025</p>
                     </div>
                 </div>
             </div>
@@ -49,11 +49,11 @@ const Education = () => {
                         <span>
                             <MdOutlineDateRange className='text-[#02bfe2]' />
                         </span>
-                        <span className='text-[#ffffff9f]'>2023-Present</span>
+                        <span className='text-[#ffffff9f] dark:text-black'>2023-Present</span>
                     </p>
                     <h1 className='font-bold text-[#02bfe2] text-xl'>Web Development Course</h1>
-                    <h5 className='text-[#ffffff9f]'>Institution: Programming-hero</h5>
-                    <p className='text-[16px] text-[#ffffff9f]'>Completing a comprehensive web development course covering HTML, CSS, JavaScript and various web development frameworks. Gaining hands-on experience through multiple projects and practical assignments.</p>
+                    <h5 className='text-[#ffffff9f] dark:text-black'>Institution: Programming-hero</h5>
+                    <p className='text-[16px] text-[#ffffff9f] dark:text-black'>Completing a comprehensive web development course covering HTML, CSS, JavaScript and various web development frameworks. Gaining hands-on experience through multiple projects and practical assignments.</p>
                 </div>
             </div>
         </div>

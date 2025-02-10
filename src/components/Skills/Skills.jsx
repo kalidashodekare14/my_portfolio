@@ -21,9 +21,9 @@ const Skills = () => {
 
 
     return (
-        <section id='skills' className='bg-[#0d0d0d] lg:min-h-screen pt-5 pb-10'>
+        <section id='skills' className='bg-[#0d0d0d] dark:bg-[#ffffff] lg:min-h-screen pt-5 pb-10'>
             <div data-aos="fade-up" data-aos-duration="1000">
-                <h1 className='text-white text-center text-4xl pt-10 '>My Skills</h1>
+                <h1 className='text-white dark:text-black text-center text-4xl pt-10 '>My Skills</h1>
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>
             </div>
             <div className='space-y-24 font-rubik'>

@@ -46,13 +46,13 @@ const ContactUs = () => {
 
 
     return (
-        <section id='contact' className='bg-[#0d0d0d] min-h-screen lg:px-32 pt-20 pb-20 font-rubik'>
+        <section id='contact' className='bg-[#0d0d0d] dark:bg-white min-h-screen lg:px-32 pt-20 pb-20 font-rubik'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center'>
-                <h1 className='text-center text-2xl text-white'>Contact Us</h1>
+                <h1 className='text-center text-2xl text-white dark:text-black'>Contact Us</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
             </div>
             <div className='mt-20 flex flex-col lg:flex-row justify-center lg:space-x-40'>
-                <div className='text-white mx-6 mb-20'>
+                <div className='text-white dark:text-black mx-6 mb-20'>
                     <div data-aos="fade-right" data-aos-delay="1000">
                         <p>Contact Info</p>
                         <h1 className='text-4xl'>Get in touch</h1>

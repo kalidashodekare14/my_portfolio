@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Dev Kalidash",
   description: "Portfolio by kalidash odekare",
+  icons: {
+    icon: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -18,9 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-          <Navbar></Navbar>
-          {children}
-          <Footer></Footer>
+        <Navbar></Navbar>
+        {children}
+        <Footer></Footer>
       </body>
     </html>
   );
