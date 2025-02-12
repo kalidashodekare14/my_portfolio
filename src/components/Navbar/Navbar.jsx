@@ -12,35 +12,30 @@ const Navbar = () => {
 
     const [isTheme, setIsTheme] = useState('dark')
 
+    console.log('checking theme', isTheme)
 
     useEffect(() => {
-        if (typeof window !== undefined) {
-
-            const shortedTheme = localStorage.getItem('theme') || 'dark';
-            setIsTheme(shortedTheme)
-
-
-            if (shortedTheme === 'dark') {
-                document.documentElement.classList.add('dark')
-            } else {
-                document.documentElement.classList.remove('dark')
-            }
-        }
-    }, [isTheme])
-
-    const toggleTheme = () => {
-
-        const newTheme = isTheme === 'dark' ? 'light' : 'dark';
-        setIsTheme(newTheme)
-        localStorage.setItem('theme', newTheme)
-
-        if (newTheme === 'dark') {
+        const shortedTheme = localStorage.getItem('theme')
+        if (shortedTheme === 'dark') {
             document.documentElement.classList.add('dark')
         } else {
             document.documentElement.classList.remove('dark')
+            setIsTheme('light')
+        }
+    }, [isTheme])
+
+
+    const handleThemeToggle = () => {
+        const newTheme = isTheme === 'dark' ? 'light' : 'dark'
+        setIsTheme(newTheme)
+        if (isTheme === 'dark') {
+            document.documentElement.classList.add('dark')
+            localStorage.setItem('theme', newTheme)
+        } else {
+            document.documentElement.classList.remove('dark')
+            localStorage.setItem('theme', newTheme)
         }
     }
-
 
 
 
@@ -131,7 +126,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-white dark:text-black text-xl font-rubik">
+                <a className="btn btn-ghost text-white  dark:text-black text-xl font-rubik">
                     <Image width={500} height={300} className='w-14' src="/logo.png" alt="" />
                     Dev Kalidash
                 </a>
@@ -146,9 +141,9 @@ const Navbar = () => {
                     <label className="swap swap-rotate">
                         {/* this hidden checkbox controls the state */}
                         <input
-                            onClick={toggleTheme}
-                            checked={isTheme === 'dark'}
                             type="checkbox"
+                            checked={isTheme === 'dark'}
+                            onClick={handleThemeToggle}
                             readOnly
                             className="theme-controller text-white" value="synthwave" />
                         {/* sun icon */}
