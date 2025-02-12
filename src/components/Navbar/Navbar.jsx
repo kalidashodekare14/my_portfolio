@@ -148,7 +148,7 @@ const Navbar = () => {
                             className="theme-controller text-white" value="synthwave" />
                         {/* sun icon */}
                         <MdSunny
-                            className="text-white dark:text-black  swap-on h-10 w-10 fill-current"
+                            className="text-white dark:text-[#ffa700]  swap-on h-10 w-10 fill-current"
                         />
 
                         {/* moon icon */}
@@ -158,7 +158,7 @@ const Navbar = () => {
                     </label>
                 </div>
                 <Link to='contact'>
-                    <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] dark:text-black hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5  rounded-none'>Hire Me</button>
+                    <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] dark:text-black hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5 mt-1  rounded-none'>Hire Me</button>
                 </Link>
             </div>
         </nav>
