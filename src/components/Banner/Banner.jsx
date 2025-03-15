@@ -27,8 +27,12 @@ const Banner = () => {
     }, [])
 
     return (
-        <div id='home' className='bg-black dark:bg-white flex flex-row justify-center items-center space-y-10  py-20  lg:px-20'>
-            <div className='lg:w-[60%] p-3  font-rubik space-y-4 text-white dark:text-black mt-10'>
+        <div id='home' className='relative bg-black  bg-grid-pattern dark:bg-white flex flex-row justify-center items-center space-y-10  py-20  lg:px-20'>
+
+            <div className='z-10 absolute -left-14 w-[40rem] h-[40rem] bg-[#08dbe4] rounded-full opacity-20 blur-3xl'></div>
+            <div className='z-5 absolute -right-5 -bottom-5 w-[25rem] h-[25rem] bg-[#02dde8] rounded-full opacity-20 blur-3xl'></div>
+
+            <div className='z-20 lg:w-[60%] p-3  font-rubik space-y-4 text-white dark:text-black mt-10'>
                 <h6 data-aos="fade-right" data-aos-duration="1000" className='lg:text-left font-rubik'>🖐 Hi, I am <span className='text-[#02dde8] font-rubik'>Kalidash Odekare</span></h6>
                 <h1 data-aos="fade-right" data-aos-delay="1000" className='lg:text-4xl text-3xl lg:text-left'>
                     <Typewriter
@@ -60,7 +64,7 @@ const Banner = () => {
                     </Link>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-delay="2700" className='hidden lg:flex max-w-[35%] '>
+            <div data-aos="fade-left" data-aos-delay="2700" className='z-10 hidden lg:flex max-w-[35%] '>
                 <Image className='shadowStyle  w-full border-2  border-[#02ddd9b4] hover:border-[#02ddd9] rounded-[50px] duration-300' src={image} width={500} height={300} alt='image' />
             </div>
         </div>
