@@ -27,7 +27,7 @@ const Banner = () => {
     }, [])
 
     return (
-        <div id='home' className='relative bg-black  bg-grid-pattern dark:bg-white flex flex-row justify-center items-center space-y-10  py-20  lg:px-20'>
+        <div id='home' className='overflow-hidden relative bg-black  bg-grid-pattern dark:bg-white flex flex-row justify-center items-center space-y-10  py-20  lg:px-20'>
 
             <div className='z-10 absolute -left-14 w-[40rem] h-[40rem] bg-[#08dbe4] rounded-full opacity-20 blur-3xl'></div>
             <div className='z-5 absolute -right-5 -bottom-5 w-[25rem] h-[25rem] bg-[#02dde8] rounded-full opacity-20 blur-3xl'></div>

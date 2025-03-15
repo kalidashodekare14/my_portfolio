@@ -16,7 +16,7 @@ const AboutMe = () => {
 
 
     return (
-        <section id='about' className='relative  bg-[#110f17] dark:bg-white min-h-screen py-5 pt-20'>
+        <section id='about' className='overflow-hidden relative  bg-[#110f17] dark:bg-white min-h-screen py-5 pt-20'>
             <div className='z-10 absolute -left-10 -top-10 w-[30rem] h-[30rem] bg-[#02dde8] rounded-full opacity-20 blur-3xl'></div>
             <div className='z-10 absolute -right-10 -bottom-10 w-[30rem] h-[30rem] bg-[#02dde8] rounded-full opacity-20 blur-3xl'></div>
             <div className='z-20 lg:mx-32 lg:my-10 flex flex-col lg:flex-row justify-between items-center lg:space-x-10 space-y-3'>
