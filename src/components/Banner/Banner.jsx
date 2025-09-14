@@ -48,9 +48,9 @@ const Banner = () => {
                 </h1>
                 <p data-aos="fade-right" data-aos-delay="2000" className='lg:w-[70%]  lg:text-left font-rubik text-[#ffffffc0] dark:text-black'>I create websites with attractive and unique designs and functionalities.</p>
                 <div className='flex lg:justify-start justify-left items-center space-x-5 text-2xl'>
-                    <a target='_blank' href="https://www.facebook.com/developerKalidash">
+                    {/* <a target='_blank' href="https://www.facebook.com/developerKalidash">
                         <FaFacebook data-aos="fade-up" data-aos-delay="2200" />
-                    </a>
+                    </a> */}
                     <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
                         <FaLinkedin data-aos="fade-up" data-aos-delay="2500" />
                     </a>
