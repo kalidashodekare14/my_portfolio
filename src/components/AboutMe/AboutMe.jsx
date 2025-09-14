@@ -25,8 +25,8 @@ const AboutMe = () => {
                 </div>
                 <div data-aos="fade-right" data-aos-delay="1000" className='z-20 mx-3 lg:w-[50%]  text-white dark:text-black space-y-5 font-rubik'>
                     <h1 className=' text-4xl text-white dark:text-black'>About Me</h1>
-                    <h2 className='text-2xl text-[#02dde8] dark:text-black'>MERN Stack and Frontend Developer</h2>
-                    <p data-aos="fade-right" data-aos-delay="1000" className='text-[#ffffff9f] dark:text-black'>I am a MERN Stack and Frontend Developer with expertise in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, Node.js, and MongoDB. My goal is to develop high-quality web applications and enhance user experiences. I aspire to become a skilled full-stack developer in the future and explore cutting-edge technologies.</p>
+                    <h2 className='text-2xl text-[#02dde8] dark:text-black'>Frontend Developer</h2>
+                    <p data-aos="fade-right" data-aos-delay="1000" className='text-[#ffffff9f] dark:text-black'>I am a Frontend Developer skilled in React.js, Next.js, and Tailwind CSS. Additionally, I have experience with backend technologies such as Node.js, Express.js, and MongoDB, which enables me to work on MERN Stack Development when needed. I build user-friendly and responsive web applications. I am continuously learning new technologies and striving to improve my skills. I enjoy working in a team environment and aim to become a proficient Full Stack Developer within the next five years.</p>
                     <button data-aos="fade-right" data-aos-delay="1000" className='btn border text-white dark:text-black border-[#07dde1] bg-opacity-0'>Read More</button>
                 </div>
             </div>

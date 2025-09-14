@@ -128,7 +128,7 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-white  dark:text-black text-xl font-rubik">
                     <Image width={500} height={300} className='w-14' src="/logo.png" alt="" />
-                    Dev Kalidash
+                    <span className='lg:flex hidden '>Dev Kalidash</span>
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
