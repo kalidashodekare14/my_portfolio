@@ -74,7 +74,7 @@ const Project = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-5'>
                 {
                     projectInfo.map(project => (
-                        <div data-aos="fade-up" data-aos-delay="1000" className=' border text-white dark:text-black'>
+                        <div key={project.id} data-aos="fade-up" data-aos-delay="1000" className=' border text-white dark:text-black'>
                             <div className='h-60'>
                                 <Image className='w-full h-full' src={project.image} width={500} height={300} alt='HealthCare' />
                             </div>
@@ -82,8 +82,8 @@ const Project = () => {
                                 <div className='space-y-3'>
                                     <h1 className='text-3xl text-[#02bfe2]'>{project.projectName}</h1>
                                     <p className='text-[#ffffff9f] dark:text-black'>{project.description}</p>
-                                    <p className='text-[#ffffff9f] dark:text-black'>Technology: {project?.technologies.map(skill => (
-                                        <span>{skill}</span>
+                                    <p className='text-[#ffffff9f] dark:text-black'>Technology: {project?.technologies.map((skill, index) => (
+                                        <span key={index}>{skill}</span>
                                     ))}</p>
                                 </div>
                                 <div className='space-x-2'>
