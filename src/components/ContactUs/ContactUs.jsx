@@ -12,6 +12,8 @@ const ContactUs = () => {
 
     const form = useRef();
 
+    console.log('checking form', form)
+
 
     useEffect(() => {
         AOS.init({
@@ -22,6 +24,8 @@ const ContactUs = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        
 
         emailjs
             .sendForm('service_allih9w', 'template_49b5xew', form.current, {
@@ -69,7 +73,7 @@ const ContactUs = () => {
                         <MdAddCall className='text-xl text-[#07dde1]' />
                         <div>
                             <p>Call us:</p>
-                            <h4 className='font-bold'>+8801728659562</h4>
+                            <h4 className='font-bold'>+8801776046270</h4>
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-delay="2300" className='mt-10 flex space-x-3'>
