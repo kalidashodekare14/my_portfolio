@@ -12,8 +12,6 @@ const ContactUs = () => {
 
     const form = useRef();
 
-    console.log('checking form', form)
-
 
     useEffect(() => {
         AOS.init({

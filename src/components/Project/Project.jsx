@@ -21,6 +21,17 @@ const Project = () => {
     const projectInfo = [
         {
             id: 1,
+            image: "https://i.ibb.co.com/7Jfczggr/ss.png",
+            projectName: "Adoptly",
+            description: "Adoptly is a team-based MERN Stack project for pet adoption, featuring smart filtering, Firebase authentication, and role-based dashboards.",
+            technologies: ["Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+            liveLink: "https://adoptly-team-project.vercel.app",
+            githubClientLink: "https://github.com/Mehedi86/adoptly-team-project",
+            githubServerLink: "https://github.com/Mehedi86/adoptly-team-project-backend"
+
+        },
+        {
+            id: 2,
             image: "https://i.ibb.co.com/LzGY4grH/d.png",
             projectName: "BookZoneBD",
             description: "BookZoneBD is a MERN Stack project where book readers can easily browse, search, filter, add to cart, and order books. It features role-based authentication secured via JWT and Firebase.",
@@ -31,7 +42,7 @@ const Project = () => {
 
         },
         {
-            id: 2,
+            id: 3,
             image: "https://i.ibb.co.com/VY18LJvS/healthcare.png",
             projectName: "HealthCare",
             description: "The Healthcare project is designed for patients. Here, you can easily book doctor appointments online without any hassle, make payments if required, and receive doctor consultations and treatments. Patients can view their booked appointments, and there is a dashboard that the admin can control.",
@@ -42,7 +53,7 @@ const Project = () => {
 
         },
         {
-            id: 3,
+            id: 4,
             image: "https://i.ibb.co.com/Q71VRndZ/easystore.png",
             projectName: "EasyStore",
             description: "EasyStore is an eCommerce platform focused on grocery products. It allows users to filter products for convenient shopping and make secure payments through SSLCOMMERZ, a trusted payment gateway. Users can track their payment status, and the platform includes a dashboard that the admin can manage.",
@@ -53,7 +64,7 @@ const Project = () => {
 
         },
         {
-            id: 4,
+            id: 5,
             image: "https://i.ibb.co.com/ch7MbRJn/precision.png",
             projectName: "Precision Medical Camp",
             description: "The Medical Management Camp is designed for patients. Patients can join the camp based on their specific health issues and receive treatment. The platform includes a dashboard where they can manage their camp activities and make payments.",
@@ -82,9 +93,12 @@ const Project = () => {
                                 <div className='space-y-3'>
                                     <h1 className='text-3xl text-[#02bfe2]'>{project.projectName}</h1>
                                     <p className='text-[#ffffff9f] dark:text-black'>{project.description}</p>
-                                    <p className='text-[#ffffff9f] dark:text-black'>Technology: {project?.technologies.map((skill, index) => (
-                                        <span key={index}>{skill}</span>
-                                    ))}</p>
+                                    <p className='text-[#ffffff9f] dark:text-black'>Technology: </p>
+                                    <div className='space-x-1'>
+                                        {project?.technologies.map((skill, index) => (
+                                            <span className='' key={index}>{skill},</span>
+                                        ))}
+                                    </div>
                                 </div>
                                 <div className='space-x-2'>
                                     {/* <button className='btn bg-opacity-0  mb-5 font-rubik'>Dawnload Resume</button> */}
@@ -112,7 +126,7 @@ const Project = () => {
                     ))
                 }
             </div>
-        </section>
+        </section >
     );
 };
 
