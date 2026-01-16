@@ -125,7 +125,7 @@ const Project = () => {
                                             Client
                                         </button>
                                     </Link>
-                                    <Link href={project.githubServerLink}>
+                                    <Link href={project.githubServerLink} target='_blank'>
                                         <button className='btn rounded-none border bg-black dark:bg-white dark:hover:bg-[#07dde1] text-white dark:text-black  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>
                                             <FaGithub />
                                             Server
