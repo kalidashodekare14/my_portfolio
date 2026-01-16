@@ -53,7 +53,7 @@ const Banner = () => {
                     {/* <a target='_blank' href="https://www.facebook.com/developerKalidash">
                         <FaFacebook data-aos="fade-up" data-aos-delay="2200" />
                     </a> */}
-                    <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                    <a target='_blank' href="https://www.linkedin.com/in/kalidash-odekare-webdev">
                         <FaLinkedin data-aos="fade-up" data-aos-delay="2500" />
                     </a>
                     <a target='_blank' href="https://github.com/kalidashodekare14">
