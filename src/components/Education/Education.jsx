@@ -38,7 +38,7 @@ const Education = () => {
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic text-[#ffffff9f] dark:text-black">2023-2024</time>
                         <div className="text-lg font-black text-[#02bfe2]">Secondary (X)</div>
-                        <span className='text-[#ffffff9f] dark:text-black'>Completed SSC from B.K High School, Dinajpur, in 2022 with a GPA of 3.63. Actively participated in debate team and science club activities.</span>
+                        <span className='text-[#ffffff9f] dark:text-black'>Secondary School Certificate (SSC) completed from B.K High School, Dinajpur in 2022.</span>
                     </div>
                     <hr />
                 </li>
