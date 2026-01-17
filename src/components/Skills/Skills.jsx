@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { FaCss3, FaHtml5, FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiTypescript } from "react-icons/si";
 
 
 const Skills = () => {
@@ -45,6 +45,12 @@ const Skills = () => {
                             <IoLogoJavascript className='' />
                         </div>
                         <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Javascript</h1>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="2200" className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#3178C6] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#2b69ac] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <SiTypescript className='' />
+                        </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>TypeScript</h1>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="2300" className='lg:w-40 w-full h-full lg:h-[25vh]'>
                         <div className='flex justify-center hover:text-[#00d1f7] text-6xl hover:text-7xl hover:scale-y-105 transition-all duration-200 text-[#90c6cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
