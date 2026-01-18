@@ -78,7 +78,7 @@ const ContactUs = () => {
                         <MdAddLocationAlt className='text-xl text-[#07dde1]' />
                         <div>
                             <p>Address:</p>
-                            <h4 className='font-bold'>Bairbari, Palashbari-5100, <br /> Birganj, Dinajpur</h4>
+                            <h4 className='font-bold'>Birganj, Dinajpur</h4>
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-delay="2400" className='space-y-3'>
