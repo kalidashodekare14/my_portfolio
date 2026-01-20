@@ -36,7 +36,6 @@ const Education = () => {
                         </svg>
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
-                        <time className="font-mono italic text-[#ffffff9f] dark:text-black">2023-2024</time>
                         <div className="text-lg font-black text-[#02bfe2]">Secondary (X)</div>
                         <span className='text-[#ffffff9f] dark:text-black'>I completed my Secondary School Certificate (SSC) from B.K. High School, Dinajpur in 2022.</span>
                     </div>
@@ -58,7 +57,6 @@ const Education = () => {
                         </svg>
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
-                        <time className="font-mono italic text-[#ffffff9f] dark:text-black">2024-2025</time>
                         <div className="text-lg font-black text-[#02bfe2]">Senior Secondary (XII)</div>
                         <span className='text-[#ffffff9f] dark:text-black'>I completed my Higher Secondary Certificate (HSC) from Goreya College, Thakurgaon in 2025.</span>
                     </div>
@@ -83,7 +81,7 @@ const Education = () => {
                     <div className="timeline-end md:mb-10">
                         <time className="font-mono italic text-[#ffffff9f] dark:text-black"></time>
                         <div className="text-lg font-black text-[#02bfe2]">Complete Web Development Course With Jhankar Mahbub</div>
-                        <span className='text-[#ffffff9f] dark:text-black'>Completing a comprehensive web development course covering HTML, CSS, JavaScript and various web development frameworks. Gaining hands-on experience through multiple projects and practical assignments.</span>
+                        <span className='text-[#ffffff9f] dark:text-black'>I have successfully completed a comprehensive web development course with Jhankar Mahbub, who specializes in HTML, CSS, JavaScript, and modern web frameworks, with strong practical experience in real-world projects and practical assignments.</span>
                     </div>
                     <hr />
                 </li>
