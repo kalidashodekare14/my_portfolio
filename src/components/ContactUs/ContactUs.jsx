@@ -23,7 +23,7 @@ const ContactUs = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        
+        console.log('checking from data', form);
 
         emailjs
             .sendForm('service_allih9w', 'template_49b5xew', form.current, {

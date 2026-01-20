@@ -38,7 +38,7 @@ const Education = () => {
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic text-[#ffffff9f] dark:text-black">2023-2024</time>
                         <div className="text-lg font-black text-[#02bfe2]">Secondary (X)</div>
-                        <span className='text-[#ffffff9f] dark:text-black'>Secondary School Certificate (SSC) completed from B.K High School, Dinajpur in 2022.</span>
+                        <span className='text-[#ffffff9f] dark:text-black'>I completed my Secondary School Certificate (SSC) from B.K. High School, Dinajpur in 2022.</span>
                     </div>
                     <hr />
                 </li>
@@ -58,9 +58,9 @@ const Education = () => {
                         </svg>
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
-                        <time className="font-mono italic text-[#ffffff9f] dark:text-black">2023-Present</time>
+                        <time className="font-mono italic text-[#ffffff9f] dark:text-black">2024-2025</time>
                         <div className="text-lg font-black text-[#02bfe2]">Senior Secondary (XII)</div>
-                        <span className='text-[#ffffff9f] dark:text-black'>Currently pursuing Senior Secondary (XII) at Goreya Degree College under Dinajpur, with a focus on Humanities. Expected to complete in 2025</span>
+                        <span className='text-[#ffffff9f] dark:text-black'>I completed my Higher Secondary Certificate (HSC) from Goreya College, Thakurgaon in 2025.</span>
                     </div>
                     <hr />
                 </li>
@@ -81,9 +81,8 @@ const Education = () => {
                         </svg>
                     </div>
                     <div className="timeline-end md:mb-10">
-                        <time className="font-mono italic text-[#ffffff9f] dark:text-black">2023-Present</time>
-                        <div className="text-lg font-black text-[#02bfe2]">Web Development Course</div>
-                        <div className='text-[#ffffff9f] dark:text-black'>Institution: Programming-hero</div>
+                        <time className="font-mono italic text-[#ffffff9f] dark:text-black"></time>
+                        <div className="text-lg font-black text-[#02bfe2]">Complete Web Development Course With Jhankar Mahbub</div>
                         <span className='text-[#ffffff9f] dark:text-black'>Completing a comprehensive web development course covering HTML, CSS, JavaScript and various web development frameworks. Gaining hands-on experience through multiple projects and practical assignments.</span>
                     </div>
                     <hr />
