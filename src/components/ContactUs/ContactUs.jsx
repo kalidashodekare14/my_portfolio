@@ -84,10 +84,7 @@ const ContactUs = () => {
                     <div data-aos="fade-right" data-aos-delay="2400" className='space-y-3'>
                         <h4 className='mt-10 uppercase'>Follow Us:</h4>
                         <div className='flex items-center space-x-5 text-2xl'>
-                            <Link target='_blank' href="https://www.facebook.com/developerKalidash">
-                                <FaFacebook />
-                            </Link>
-                            <Link target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                            <Link target='_blank' href="https://www.linkedin.com/in/kalidash-odekare-webdev">
                                 <FaLinkedin />
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14">
