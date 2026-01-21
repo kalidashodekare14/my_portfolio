@@ -29,12 +29,24 @@ const Footer = () => {
                     <h4>Portfolio- &copy;2023 All Rights Reserved</h4>
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white dark:text-black lg:space-x-3'>
-                    <p className='mb-3'>Home</p>
-                    <p className='mb-3'>About Me</p>
-                    <p className='mb-3'>Skill</p>
-                    <p className='mb-3'>Portfolio</p>
-                    <p className='mb-3'>Projects</p>
-                    <p className='mb-3'>Contact Us</p>
+                    <Link to="home">
+                        <p className='mb-3'>Home</p>
+                    </Link>
+                    <Link to="about">
+                        <p className='mb-3'>About Me</p>
+                    </Link>
+                    <Link to="skills">
+                        <p className='mb-3'>Skill</p>
+                    </Link>
+                    <Link to="education">
+                        <p className='mb-3'>Portfolio</p>
+                    </Link>
+                    <Link to="projects">
+                        <p className='mb-3'>Projects</p>
+                    </Link>
+                    <Link to="contact">
+                        <p className='mb-3'>Contact Us</p>
+                    </Link>
                 </div>
             </div>
         </div>
