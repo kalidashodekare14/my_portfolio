@@ -1,5 +1,6 @@
+"use client"
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from 'react-scroll'
 import React from 'react';
 import { FaFacebook, FaGithub, FaGithubAlt, FaLinkedin } from 'react-icons/fa';
 
@@ -29,22 +30,46 @@ const Footer = () => {
                     <h4>Portfolio- &copy;2023 All Rights Reserved</h4>
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white dark:text-black lg:space-x-3'>
-                    <Link to="home">
+                    <Link
+                        to="home"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>Home</p>
                     </Link>
-                    <Link to="about">
+                    <Link
+                        to="about"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>About Me</p>
                     </Link>
-                    <Link to="skills">
+                    <Link
+                        to="skills"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>Skill</p>
                     </Link>
-                    <Link to="education">
+                    <Link
+                        to="education"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>Portfolio</p>
                     </Link>
-                    <Link to="projects">
+                    <Link
+                        to="projects"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>Projects</p>
                     </Link>
-                    <Link to="contact">
+                    <Link
+                        to="contact"
+                        spy={true}
+                        className='cursor-pointer'
+                    >
                         <p className='mb-3'>Contact Us</p>
                     </Link>
                 </div>
